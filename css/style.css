@@ -1,0 +1,426 @@
+header {
+	width: 100%;
+	height: 110px;
+	line-height: 110px;
+	color: #BDBDBD;
+	position: fixed;
+	z-index: 100;
+}
+
+header a.logo {
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.2em;
+}
+
+
+header nav ul li {
+	padding-left: 30px;
+}
+
+header nav ul li a {
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+	color: #17202A;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.fullscreen {
+	min-height: 100%;
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+
+.intro {
+	height: 730px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	background-size: cover;
+	padding-top: 157px;
+	padding-bottom: 78px;
+}
+
+.intro h1 {
+	margin-top: 80px;
+}
+
+.intro p {
+	font-size: 17px;
+	margin-top: 80px;
+
+}
+
+span {
+	color: #BA4A00;
+}
+
+.intro a.stepin {
+	color: #fff;
+	font-weight: bold;
+	padding: 25px 35px;
+	border: 0.1px solid #fff;
+	text-decoration: none;
+	line-height: 12em;
+	transition: all 0.3s ease-in;
+}
+ 
+ .intro a.stepin:hover {
+ 	background-color: #BA4A00;
+ 	border: none;
+ 	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+ }
+
+/*SERVICES*/
+
+.services, .projects {
+	text-align: center;
+}
+
+.services-header h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.projects {
+	background-color: black;
+}
+
+.services .services-content i {
+	color: #BA4A00;
+}
+
+.services-header, .projects-header, .team-header, .partners-header, .contact-header {
+	margin-bottom: 57px;
+	text-align: center;
+}
+
+
+/*PROJECTS*/
+
+.html5gallery {
+	display: none;
+	width: 480px;
+	height: 270px;
+}
+
+
+.projects h2.white {
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+
+.projects .inner-content img {
+	width: 320px;
+	height: 220px;
+}
+
+.projects .inner-content {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.projects .thumbnail {
+  background-color: black;
+  border: none;
+}
+
+.projects .inner-content .overlay-content {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	
+}
+
+.projects .inner-content .overlay-content h5 {
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 20%;
+	padding-bottom: 27%;
+}
+
+.projects .inner-content .overlay-content p {
+	color: #FDFEFE;
+}
+
+.projects .inner-content:hover .overlay-content {
+	top: 0px;
+}
+
+.projects .inner-content .overlay-content a {
+	color: #BA4A00;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 47%;
+}
+
+
+.projects .inner-content .overlay-content i {
+	padding-top: 20%;
+  margin-right: -10%;
+} 
+
+.lb-data .lb-caption {
+	text-transform: uppercase;
+}
+
+/*TEAM*/
+
+.team {
+	background-color: black;
+}
+
+.team h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.team .inner-content{
+	position: relative;
+	width: 245px;
+	height: 205px;
+}
+
+.team .inner-content img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.team .inner-content .overlay-content {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	
+}
+
+.team-carousel li
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.team .team-nav li:last-child{
+	margin-right: 0px;
+}
+
+.team .inner-content:hover .overlay-content{
+	top: 0px;
+}
+
+.team .inner-content .overlay-content a{
+	font-weight: bold;
+}
+
+.team .team-nav{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.team .team-nav li i{
+	cursor: pointer;
+	color: #BA4A00;
+}
+
+.team .inner-content p:first-child{
+	padding-top: 27%;
+}
+
+.team .inner-content p{
+	font-size: 13px;
+}
+
+/*PARTNERS SECTION*/
+
+.partners {
+	background-color: #fff;
+}
+
+.partners h2 {
+	text-transform: uppercase;
+	letter-spacing: 
+}
+
+
+.partners img {
+	margin-left: 10%;
+}
+
+
+
+/*CONTACT*/
+
+.contact {
+	background-image: url("../images/contact3.jpeg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+form.contact-form {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input:not([type=submit]),textarea
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border: none;
+}
+
+input:not([type=submit]){
+	height: 40px;
+	line-height: 40px;
+}
+
+/*textarea{
+	padding-top: 10px;
+}*/
+
+#submit{
+	padding: 10px 30px;
+	background: transparent;
+	border: 2px solid #BA4A00;
+	font-weight: bold;
+	color: black;
+}
+
+::placeholder{
+	color:  #85929E;
+}
+
+/*FOOTER SECTION*/
+
+footer{
+	background-color: black;
+}
+ footer h3{
+ 	padding-bottom: 15px;
+ }
+
+.section-padding {
+	padding-top: 10px;
+}
+
+footer p i {
+	color: #2d82d8;
+}
+
+footer p span {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+footer p.about {
+	margin-bottom: 20px;
+}
+
+form.update-form input:not([type=submit]), textarea{
+	width: 100%;
+	margin-bottom: 15px;
+	color: #777;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2) inset;
+	border:none;
+}
+
+#submit-button {
+	background-color: black;
+	border: 2px solid #BA4A00;
+	color: #fff;
+	padding: 0px 20px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.footer-social-links li {
+	padding: 0 10px;
+	font-size: 30px;
+}
+
+.footer-social-links li a i.fa-facebook {
+	color: #3b5998;
+}
+
+.footer-social-links li a i.fa-linkedin {
+	color: #007bb5;
+}
+
+.footer-social-links li a i.fa-vimeo {
+	color: #45bbff;
+}
+
+.copyright {
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	background-color: #BA4A00;
+	text-align: center;
+}
+
+footer p span.red {
+	padding-left: 0px;
+}
+
+.copyright p {
+	margin: 0 0 0 0;
+
+}
+
+
+
+
+
+
+
+
+
